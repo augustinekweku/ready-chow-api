@@ -7,6 +7,8 @@ import productRoute from "./controllers/product"
 
 dotenv.config();
 const app = express();
+app.use(cors())
+
 
 app.use(json())
 
